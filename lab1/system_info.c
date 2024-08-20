@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <sys/utsname.h>
 
@@ -10,7 +11,7 @@ void print_os_info() {
         exit(EXIT_FAILURE);
     }
 
-    printf("Operating System: %s\n", buffer.system);
+    printf("Operating System: %s\n", buffer.sysname);
     printf("Node name: %s\n", buffer.nodename);
     printf("Release: %s\n", buffer.release);
     printf("Version: %s\n", buffer.version);
@@ -28,12 +29,12 @@ void print_cpu_info() {
         exit(1);
     }
 
-    while(fgets(line, sideof(line), cpuinfo)) {
+    while(fgets(line, sizeof(line), cpuinfo)) {
         if (strstr(line, "cpu family") != NULL && !printed_family) {
             printf("%s", line);
             printed_family = 1;
         }
-        else if (strstr(line, "vendor_id") != NULL && !printed_vendor) {
+        if (strstr(line, "vendor_id") != NULL && !printed_vendor) {
             printf("%s", line);
             printed_vendor = 1;
         }
