@@ -13,7 +13,7 @@ int main() {
             printf("%s", ((word[i] & j) == j) ? "1" : "0");
         }
 
-        
+        // 
         printf("\n\n");
     }
 
