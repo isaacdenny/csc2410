@@ -1,0 +1,4 @@
+1. The XOR operation does a simple decryption on the buffer data with the provided key, allowing it to be read as meaningful data. Without this operation, the data would not be able to be read accurately
+2. It can hold a lot of binary data in a shorter string (i.e. it is more concise). This provides a quicker debug process.
+3. Understanding the ASCII representation helps us to understand what the computer is seeing, and how it computes some of the mathematical results.
+4. When reading files from a file upload (or download) API route, this skill is very important. Any low-level OS work or anything in security (with encryption/decryption) will require these skills.
