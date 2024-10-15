@@ -1,5 +1,9 @@
 # CSC2710 - Assembly Lab
 
+## Reflection
+
+I learned a lot of great info from observing if-statements and loops in assembly, including what each operator does, how it handles C control-flow, and general syntax structure of the language. I found that the control-flow of C in loops and if-statements is handled in assembly with the different jump operators (`jle`, `jge`, ...) and the compare operator (`cmp`); I was also able to pick up the syntax for storing and retrieving variables on the stack (`mov DWORD PTR [stack offset], value`) and performing operations on them and other information in registers (`add DWORD PTR [stack offset],register`). Overall, the assembly-style coding process makes the manipulation flow of memory on the stack and registers much more obvious. Additionally, the usefulness of GDB in disassembling the C code was a helpful skill to learn, and gave me better insight into how these processes work on an Intel CPU. 
+
 ## Simple Sum
 
 ![GDB Session](https://github.com/isaacdenny/csc2410/blob/main/lab8/screenshots/gdb_simple.png)
@@ -205,7 +209,3 @@ Our else-block is handled in these lines. we load `x` into a register, compute t
 ---
 
 The rest of the assembly code sets up printf, calls it, and cleans up the stack and registers before returning similar to the other examples.
-
-## Reflection
-
-What I learned from observing if-statements and loops in assembly
