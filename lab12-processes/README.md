@@ -18,4 +18,4 @@
 
 3. You may need to make a second pipe that the sender can read from and the receiver can write to. This way the communication does not get overwritten or confused
 
-![Running the sender and receiver in 2 terminals]()
+![Running the sender and receiver in 2 terminals](https://github.com/isaacdenny/csc2410/blob/main/lab12-processes/sender-receiver-processes.png)
