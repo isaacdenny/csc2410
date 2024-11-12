@@ -14,7 +14,7 @@
 
 1. Similar to file reading, the sender program writes data to the pipe (fi), and the reader reads from the pipe (fo). If the pipe is full, processes will have to wait to read before writing more data to the pipeline.
 
-2. It is necessary to run the receiver first so that it can be ready for when the sender sends the data. The sender sends the message immediately, so without a receiver readily available, the message will be lost.
+2. It is NOT necessary to run the receiver first. The data is written to the pipe and can be read by a receiver at any time. (I tried it both ways)
 
 3. You may need to make a second pipe that the sender can read from and the receiver can write to. This way the communication does not get overwritten or confused
 
