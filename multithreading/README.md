@@ -41,8 +41,8 @@
 ## Section 2
 
 1. Avg performance
-- Multithreaded: 17.836
-- Single thread: 16.118
+- Multithreaded: 17.836 ms
+- Single thread: 16.118 ms
 
 2. Multithreading can increase overhead to manage threads and context switching, but generally provides increased performance on machines with multiple cores. Here, we can see that the overhead of managing the threads outweighs any performance increase.
 
@@ -56,4 +56,14 @@
 
 ## Section 3
 
+1. Avg performance
+- Core Affinity: 16.789 ms
+- No Core Affinity: 17.228 ms
 
+2. Core affinity gave more variance to the execution times. I expect that it was because of the lower overhead of managing the threads across cores or the decreased cache misses
+
+3. Applications that require heavy caching would perform great using core affinity
+
+4. Not as frequently, because I/O action performance is more heavily influenced by network speeds, data transfer speeds than they are by CPU performance.
+
+[]()

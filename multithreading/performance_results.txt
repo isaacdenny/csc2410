@@ -1,0 +1,160 @@
+Running with core affinity...
+Total Sum: 494956579, Execution Time: 17.01 ms
+
+Running without core affinity...
+Total Sum: 495061835, Execution Time: 17.11 ms
+
+Execution Time with Core Affinity: 17.01 ms
+Execution Time without Core Affinity: 17.11 ms
+Running with core affinity...
+Total Sum: 494956579, Execution Time: 16.85 ms
+
+Running without core affinity...
+Total Sum: 495061835, Execution Time: 17.05 ms
+
+Execution Time with Core Affinity: 16.85 ms
+Execution Time without Core Affinity: 17.05 ms
+Running with core affinity...
+Total Sum: 495052913, Execution Time: 14.23 ms
+
+Running without core affinity...
+Total Sum: 495165910, Execution Time: 17.11 ms
+
+Execution Time with Core Affinity: 14.23 ms
+Execution Time without Core Affinity: 17.11 ms
+Running with core affinity...
+Total Sum: 495052913, Execution Time: 16.32 ms
+
+Running without core affinity...
+Total Sum: 495165910, Execution Time: 17.10 ms
+
+Execution Time with Core Affinity: 16.32 ms
+Execution Time without Core Affinity: 17.10 ms
+Running with core affinity...
+Total Sum: 495149627, Execution Time: 16.15 ms
+
+Running without core affinity...
+Total Sum: 495045505, Execution Time: 17.11 ms
+
+Execution Time with Core Affinity: 16.15 ms
+Execution Time without Core Affinity: 17.11 ms
+Running with core affinity...
+Total Sum: 495149627, Execution Time: 16.36 ms
+
+Running without core affinity...
+Total Sum: 495045505, Execution Time: 17.07 ms
+
+Execution Time with Core Affinity: 16.36 ms
+Execution Time without Core Affinity: 17.07 ms
+Running with core affinity...
+Total Sum: 495102510, Execution Time: 14.20 ms
+
+Running without core affinity...
+Total Sum: 495038470, Execution Time: 17.07 ms
+
+Execution Time with Core Affinity: 14.20 ms
+Execution Time without Core Affinity: 17.07 ms
+Running with core affinity...
+Total Sum: 495102510, Execution Time: 19.00 ms
+
+Running without core affinity...
+Total Sum: 495038470, Execution Time: 17.64 ms
+
+Execution Time with Core Affinity: 19.00 ms
+Execution Time without Core Affinity: 17.64 ms
+Running with core affinity...
+Total Sum: 495018267, Execution Time: 17.86 ms
+
+Running without core affinity...
+Total Sum: 495183816, Execution Time: 17.49 ms
+
+Execution Time with Core Affinity: 17.86 ms
+Execution Time without Core Affinity: 17.49 ms
+Running with core affinity...
+Total Sum: 495018267, Execution Time: 19.91 ms
+
+Running without core affinity...
+Total Sum: 495183816, Execution Time: 17.53 ms
+
+Execution Time with Core Affinity: 19.91 ms
+Execution Time without Core Affinity: 17.53 ms
+Running with core affinity...
+Total Sum: 495021796, Execution Time: 16.42 ms
+
+Running without core affinity...
+Total Sum: 494996884, Execution Time: 17.33 ms
+
+Execution Time with Core Affinity: 16.42 ms
+Execution Time without Core Affinity: 17.33 ms
+Running with core affinity...
+Total Sum: 495010933, Execution Time: 17.41 ms
+
+Running without core affinity...
+Total Sum: 494937585, Execution Time: 17.13 ms
+
+Execution Time with Core Affinity: 17.41 ms
+Execution Time without Core Affinity: 17.13 ms
+Running with core affinity...
+Total Sum: 495060646, Execution Time: 15.12 ms
+
+Running without core affinity...
+Total Sum: 495018105, Execution Time: 17.15 ms
+
+Execution Time with Core Affinity: 15.12 ms
+Execution Time without Core Affinity: 17.15 ms
+Running with core affinity...
+Total Sum: 495060646, Execution Time: 16.64 ms
+
+Running without core affinity...
+Total Sum: 495018105, Execution Time: 17.47 ms
+
+Execution Time with Core Affinity: 16.64 ms
+Execution Time without Core Affinity: 17.47 ms
+Running with core affinity...
+Total Sum: 494997414, Execution Time: 16.24 ms
+
+Running without core affinity...
+Total Sum: 495132716, Execution Time: 17.12 ms
+
+Execution Time with Core Affinity: 16.24 ms
+Execution Time without Core Affinity: 17.12 ms
+Running with core affinity...
+Total Sum: 494928077, Execution Time: 18.51 ms
+
+Running without core affinity...
+Total Sum: 494911702, Execution Time: 17.21 ms
+
+Execution Time with Core Affinity: 18.51 ms
+Execution Time without Core Affinity: 17.21 ms
+Running with core affinity...
+Total Sum: 494849194, Execution Time: 17.12 ms
+
+Running without core affinity...
+Total Sum: 495040796, Execution Time: 17.29 ms
+
+Execution Time with Core Affinity: 17.12 ms
+Execution Time without Core Affinity: 17.29 ms
+Running with core affinity...
+Total Sum: 494849194, Execution Time: 17.86 ms
+
+Running without core affinity...
+Total Sum: 495040796, Execution Time: 17.10 ms
+
+Execution Time with Core Affinity: 17.86 ms
+Execution Time without Core Affinity: 17.10 ms
+Running with core affinity...
+Total Sum: 494945518, Execution Time: 16.65 ms
+
+Running without core affinity...
+Total Sum: 495008663, Execution Time: 17.17 ms
+
+Execution Time with Core Affinity: 16.65 ms
+Execution Time without Core Affinity: 17.17 ms
+Running with core affinity...
+Total Sum: 494945518, Execution Time: 16.69 ms
+
+Running without core affinity...
+Total Sum: 495008663, Execution Time: 17.27 ms
+
+Execution Time with Core Affinity: 16.69 ms
+Execution Time without Core Affinity: 17.27 ms
