@@ -66,4 +66,4 @@
 
 4. Not as frequently, because I/O action performance is more heavily influenced by network speeds, data transfer speeds than they are by CPU performance.
 
-[]()
+![Core affinity data](https://github.com/isaacdenny/csc2410/blob/main/multithreading/google-sheets-data-core-affinity.png)
