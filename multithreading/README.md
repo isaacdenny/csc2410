@@ -37,3 +37,23 @@
 3. I would just change the env variables to run the threads on the same core or grouping them.
 
 ---
+
+## Section 2
+
+1. Avg performance
+- Multithreaded: 17.836
+- Single thread: 16.118
+
+2. Multithreading can increase overhead to manage threads and context switching, but generally provides increased performance on machines with multiple cores. Here, we can see that the overhead of managing the threads outweighs any performance increase.
+
+3. Applications of multithreading include compute-intensive tasks that can be run on multiple cores.
+
+4. Single threaded execution will be prefereable on a single-cored cpu/machine. There will otherwise be no performance increase.
+
+[]()
+
+---
+
+## Section 3
+
+
