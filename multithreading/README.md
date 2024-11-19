@@ -50,7 +50,7 @@
 
 4. Single threaded execution will be prefereable on a single-cored cpu/machine. There will otherwise be no performance increase.
 
-[]()
+![Google Sheets Data and Graph](https://github.com/isaacdenny/csc2410/blob/main/multithreading/google-sheets-data.png)
 
 ---
 
